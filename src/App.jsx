@@ -3,6 +3,7 @@ import { Sidebar } from "./components/Sidebar";
 import styles from "./App.module.css"
 
 import './global.css';
+import { Post } from "./components/Post";
 
 function App() {
 
@@ -14,13 +15,9 @@ function App() {
 
         <Sidebar/>
         <main>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Beatae in explicabo optio quisquam eius voluptas neque quidem recusandae velit laborum veritatis sapiente veniam accusamus, 
-          quo alias dicta, vitae magnam harum.
+         
+         <Post/>
 
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-          Beatae in explicabo optio quisquam eius voluptas neque quidem recusandae velit laborum veritatis sapiente veniam accusamus, 
-          quo alias dicta, vitae magnam harum.
         </main>
 
       </div>
