@@ -5,13 +5,10 @@ export function Post() {
     return (
         <article className={styles.post}>
             <header>
-                <div style={styles.author}>
-                    <img 
-                        className={styles.avatar}
-                        src="https://github.com/JDanielT.png"
-                    />
+                <div className={styles.author}>
+                    <img src="https://github.com/JDanielT.png"/>
 
-                    <div style={styles.authorInfo}>
+                    <div className={styles.authorInfo}>
                         <strong>Daniel Tavares</strong>
                         <span>Developer</span>
                     </div>
